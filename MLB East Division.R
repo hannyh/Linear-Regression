@@ -1,5 +1,8 @@
 #Incorporating Categorical Variables into our Model
 
+#Research Question: Determine if there is a statistically significant difference between MLB divisions in the difficulty to make it to 
+#playoffs.
+
 #Data: 
 #Accessed at http://www.espn.com/mlb/standings/_/ on March 2, 2018
 library(XML)
