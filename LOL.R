@@ -1,5 +1,9 @@
 #League of Legend Skills
 
+#Research Task: Find the value of the skills Kills, Deaths, Assists, and Time in winning a championship LOL game.
+
+#Data Features: A success/failure response variable with quantitative explanatory variables
+
 #Data
 source("http://grimshawville.byu.edu/eSports2017.R")
 
@@ -168,10 +172,4 @@ performance(test.pred, measure="auc")
 #difference, prob just random chance. We have a slight increase, so it's just random chance.
 
 
-#Research Task: Find the value of the skills Kills, Deaths, Assists, and Time in winning a championship LOL game.
-#Data Features: A success/failure response variable with quantitative explanatory variables
-
 #Analysis Weakness: Everything is measured in "odds" not probability, which makes it hard to understand. 
-
-#Challenge: Predicting whether a person is a regular alcohol drinker or not, based on their gender and age. 
-#Data: http://www.stata-press.com/data/r13/r.html#d
