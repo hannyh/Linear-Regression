@@ -1,5 +1,11 @@
-# Climate Control Part #2
+# Climate Control #2
+
 # Much of the following code was provided by Dr. Grimshaw
+
+#Research Task: Fit a model to predict the effect of greenhouse gases on the earth's temperature.
+
+#Data Features: The data is linear, so it fit the model without having to perform any transformations.
+
 #Data on Temp
 temp <- read.table(header=TRUE, text="
                    Year   Jan  Feb  Mar  Apr  May  Jun  Jul  Aug  Sep  Oct  Nov  Dec    J-D D-N    DJF  MAM  JJA  SON  Year
@@ -1821,14 +1827,8 @@ summary(out.co2.trim)
 #expected to see. However, I am not taking into account all the information and data that I have available, which
 #is a bummer. 
 
-#Research Task: Fit a model to predict the effect of greenhouse gases on the earth's temperature.
-#Data Features: The data is linear, so it fit the model without having to perform any transformations.
-
 #Weaknesses: The collinearity of the explanatory variables proved to be a biggish problem. Maybe it would have
 #been better to use other variables that weren't so collinear. 
-
-#Challenge: The moneyball problem!! Which characteristics are the most important for players to score homeruns
-# and therefore for baseball teams to win on a low budget. Data can be acquired from the MLb website. 
 
 
 
