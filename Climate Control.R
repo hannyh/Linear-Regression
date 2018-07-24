@@ -2,7 +2,14 @@
 
 #Much of the following code was provided by the illustrious Dr. Grimshaw. 
 
+#Research Task: Decide if there is a statistically significant greenhouse gas effect, and 
+#predict the temperature for the next 12 months, based on our model.
+
 #Data
+#Data Features: To do this analysis I wrangled data from a temperature, co2, and methane datasets. I combined them to form a single
+#dataset with one response variable (temp), and several explanatory variables (methane, co2), all of
+#which were quantitative. When I plotted each explanatory variable against the response 
+#variable, the data showed a linear trend.
 
 #Data on Temp
 temp <- read.table(header=TRUE, text="
@@ -1096,12 +1103,4 @@ cbind(climate.train$temp, predict(out.train.climate, newdata = climate.test))
 plot(predict(out.train.climate, newdata=climate.test), climate.test$temp)
 abline(0,1, col="gray")
 
-#Research Task: Decide if there is a statistically significant greenhouse gas effect, and 
-#predict the temperature for the next 12 months, based on our model.
 
-#Data Features: There was one response variable, and several explanatory variables, all of
-#which were quantitative. When I plotted each explanatory variable against the response 
-#variable\, the data showed a linear trend. 
-
-#Challenge: Does age, waist size, and blood pressure have an effect on weight?
-#Data: https://www.statcrunch.com/app/index.php?dataid=380995
